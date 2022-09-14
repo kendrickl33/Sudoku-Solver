@@ -53,7 +53,7 @@ def isValid(board, num, pos):
         if board[pos[0]][i] == num and pos[1] != i:
             return False
     
-    #Sqaure Check
+    #Square Check
     x = pos[1] // 3
     y = pos[0] // 3
     
